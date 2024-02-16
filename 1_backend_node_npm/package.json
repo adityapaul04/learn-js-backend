@@ -1,0 +1,20 @@
+{
+  "name": "1_backend_node_npm",
+  "version": "1.0.0",
+  "description": "JS backend 1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "js",
+    "backend"
+  ],
+  "author": "Aditya Paul",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.3",
+    "slugify": "^1.6.6"
+  }
+}
