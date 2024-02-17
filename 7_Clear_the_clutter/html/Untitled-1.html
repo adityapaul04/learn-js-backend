@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout using symantic syntax</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+      
+      header{
+        position: sticky;
+        top:0;
+      }
+
+      nav {
+        background-color: pink;
+        height: 35px;
+        padding-top: 5px;
+        /* width: 1438px; */
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+      }
+
+      nav ul li {
+        padding: 5px;
+      }
+
+      main {
+        /* height: 225px;
+        width: 300px; */
+        background-color: black;
+      }
+
+      .box {
+        background-color: rgb(136, 223, 136);
+        height: 80vh;
+        /* width: 1400px; */
+        padding: 20px 0px 0px 35px;
+        text-align: center;
+      }
+      
+      .div1 {
+        background-color: peru;
+        /* height: 300px; */
+        height: 80%;
+        /* width: 600px; */
+        width: 40%;
+        display: inline-block;
+        /* padding: 0px 0px 0px 0px; */
+        margin: 20px;
+      }
+      
+      .div2 {
+        background-color: green;
+        /* height: 300px; */
+        height: 80%;
+        /* width: 600px; */
+        width: 40%;
+        display: inline-block;
+        /* padding: 0px 0px 0px 0px; */
+        margin: 20px;
+      }
+
+      .textbox {
+        background-color: black;
+        color: white;
+        height: 100px;
+        /* width: 1400px; */
+        border-radius: 30px;
+        padding: 20px;
+        text-align: center;
+        margin-top: 5px;
+      }
+      .textbox p {
+        font-weight: bold;
+        font-size: 30px;
+        padding: 23px 0px;
+        border: 2px solid white;
+        border-radius: 30px;
+      }
+      .orange-box{
+        background-color: orange;
+        height:25px;
+        width: 25px;
+        position: fixed;
+        right: 3px;
+        bottom: 13px;
+        border-radius: 60px;
+        text-align: right;
+        
+      }
+      footer{
+            background-color: blueviolet;
+            height: 50px;
+            /* width:1434px;
+            margin-top: 53vh; */
+
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Services</li>
+          <li>Contact</li>
+          <li>About</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="box">
+        <div class="div1"></div>
+        <div class="div2"></div>
+      </div>
+
+      <div class="textbox">
+        <p>Hii I am learning CSS</p>
+      </div>
+
+      <div class="orange-box"></div>
+    </main>
+
+    <footer>
+      
+    </footer>
+
+  </body>
+</html>
